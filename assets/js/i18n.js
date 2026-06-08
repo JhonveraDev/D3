@@ -585,6 +585,149 @@
     }
   };
 
+  var staticTextTranslations = {
+    'title.catalog': {
+      es: 'Décimo Dotaciones - Catálogo',
+      en: 'Décimo Dotaciones - Catalog'
+    },
+    'title.contact': {
+      es: 'Décimo Dotaciones - Contacto',
+      en: 'Décimo Dotaciones - Contact'
+    },
+    'title.home': {
+      es: 'Décimo Dotaciones - Inicio',
+      en: 'Décimo Dotaciones - Home'
+    },
+    'title.flame': {
+      es: 'Décimo Dotaciones - Línea ignífuga',
+      en: 'Décimo Dotaciones - Flame-Resistant Line'
+    },
+    'title.about': {
+      es: 'Décimo Dotaciones - Nosotros',
+      en: 'Décimo Dotaciones - About Us'
+    },
+    'title.policies': {
+      es: 'Décimo Dotaciones - Políticas Empresariales',
+      en: 'Décimo Dotaciones - Business Policies'
+    },
+    'cat.norms': {
+      es: 'Normativas: NFPA 2112:2023 ASTM F1506:2022',
+      en: 'Standards: NFPA 2112:2023 ASTM F1506:2022'
+    },
+    'cat.norms.pipe': {
+      es: 'Normativas: NFPA 2112:2023 | ASTM F1506:2022',
+      en: 'Standards: NFPA 2112:2023 | ASTM F1506:2022'
+    },
+    'footer.address.full': {
+      es: 'Carrera 64 # 4B-92, Barrio La Pradera, Bogotá, Colombia',
+      en: 'Carrera 64 # 4B-92, La Pradera neighborhood, Bogotá, Colombia'
+    },
+    'footer.address.line1': {
+      es: 'Carrera 64 # 4B-92, Barrio La Pradera,',
+      en: 'Carrera 64 # 4B-92, La Pradera neighborhood,'
+    },
+    'footer.address.short': {
+      es: 'Carrera 64 # 4B-92',
+      en: 'Carrera 64 # 4B-92'
+    },
+    'footer.city': {
+      es: 'Bogotá, Colombia',
+      en: 'Bogotá, Colombia'
+    },
+    'footer.copy': {
+      es: '© 2025 DECIMO DOTACIONES - IGNISAFE',
+      en: '© 2025 DECIMO DOTACIONES - IGNISAFE'
+    },
+    'wa.write': {
+      es: '¡Escríbenos!',
+      en: 'Write to us!'
+    },
+    'linea.contact.address': {
+      es: '⮞ Carrera 64 # 48-92, Barrio La Pradera, Bogotá, Colombia',
+      en: '⮞ Carrera 64 # 48-92, La Pradera neighborhood, Bogotá, Colombia'
+    },
+    'linea.contact.phone': {
+      es: '⮞ Teléfono: (601) 4432180',
+      en: '⮞ Phone: (601) 4432180'
+    },
+    'index.certs.title': {
+      es: 'Certificaciones que respaldan nuestra calidad y protección',
+      en: 'Certifications that support our quality and protection'
+    },
+    'index.certs.intro': {
+      es: 'En Décimo Dotaciones e Ignisafe 10 trabajamos bajo estándares reconocidos internacionalmente para garantizar prendas confiables, procesos controlados y soluciones de protección personal diseñadas para entornos de alto riesgo. Nuestras certificaciones reflejan dos compromisos fundamentales: la calidad de nuestros procesos internos y el desempeño técnico de nuestras prendas ignífugas y resistentes al arco eléctrico.',
+      en: 'At Décimo Dotaciones and Ignisafe 10, we work under internationally recognized standards to ensure reliable garments, controlled processes, and personal protection solutions designed for high-risk environments. Our certifications reflect two core commitments: the quality of our internal processes and the technical performance of our flame-resistant and electric arc-resistant garments.'
+    },
+    'index.certs.iso.title': {
+      es: '⮞ ISO 9001 — Gestión de calidad en nuestros procesos',
+      en: '⮞ ISO 9001 — Quality management in our processes'
+    },
+    'index.certs.iso.desc': {
+      es: 'La certificación ISO 9001 respalda nuestro sistema de gestión de calidad. Esto significa que contamos con procesos documentados, controlados y orientados a la mejora continua, desde la atención comercial hasta la producción, inspección y entrega de las prendas.',
+      en: 'ISO 9001 certification supports our quality management system. This means we have documented, controlled processes focused on continuous improvement, from commercial service to garment production, inspection, and delivery.'
+    },
+    'index.certs.nfpa.title': {
+      es: '⮞ NFPA 2112 — Protección frente al fuego repentino',
+      en: '⮞ NFPA 2112 — Protection against flash fire'
+    },
+    'index.certs.nfpa.desc': {
+      es: 'La norma NFPA 2112 aplica a prendas diseñadas para proteger al usuario frente a exposiciones breves al fuego repentino, especialmente en sectores como hidrocarburos, gas, energía e industria.',
+      en: 'NFPA 2112 applies to garments designed to protect users from brief flash fire exposures, especially in sectors such as hydrocarbons, gas, energy, and industry.'
+    },
+    'index.certs.astm.title': {
+      es: '⮞ ASTM F1506 — Protección frente al arco eléctrico',
+      en: '⮞ ASTM F1506 — Protection against electric arc'
+    },
+    'index.certs.astm.desc': {
+      es: 'La norma ASTM F1506 aplica a prendas utilizadas por trabajadores expuestos a riesgos de arco eléctrico. Evalúa materiales y prendas destinados a ofrecer protección térmica en actividades eléctricas.',
+      en: 'ASTM F1506 applies to garments used by workers exposed to electric arc hazards. It evaluates materials and garments intended to provide thermal protection during electrical work.'
+    },
+    'index.certs.trust.title': {
+      es: '⮞ Más que certificados, ofrecemos confianza técnica.',
+      en: '⮞ More than certifications, we offer technical confidence.'
+    },
+    'index.certs.trust.desc': {
+      es: 'Cada prenda Ignisafe 10 integra experiencia en confección, selección cuidadosa de materiales y cumplimiento de estándares internacionales para acompañar operaciones donde la seguridad no es negociable.',
+      en: 'Every Ignisafe 10 garment combines manufacturing experience, careful material selection, and compliance with international standards to support operations where safety is non-negotiable.'
+    },
+    'index.risk.subtitle': {
+      es: 'Prendas diseñadas para entornos de alto riesgo',
+      en: 'Garments designed for high-risk environments'
+    },
+    'index.risk.desc1': {
+      es: 'Las prendas ignífugas Ignisafe 10 están desarrolladas para proteger al trabajador frente a exposiciones breves al fuego repentino y riesgos térmicos asociados al arco eléctrico.',
+      en: 'Ignisafe 10 flame-resistant garments are developed to protect workers from brief flash fire exposures and thermal hazards associated with electric arc.'
+    },
+    'index.risk.desc2': {
+      es: 'Fabricamos vestuario técnico especializado para sectores como energía, hidrocarburos, gas, industria, minería y mantenimiento eléctrico, integrando materiales certificados, confección especializada y control de calidad en cada prenda. Nuestras prendas cuentan con certificaciones bajo normas internacionales como',
+      en: 'We manufacture specialized technical workwear for sectors such as energy, hydrocarbons, gas, industry, mining, and electrical maintenance, integrating certified materials, specialized manufacturing, and quality control in every garment. Our garments are certified under international standards such as'
+    },
+    'index.risk.quality': {
+      es: 'Prendas fabricadas con materiales técnicos seleccionados y procesos controlados para garantizar resistencia, durabilidad y desempeño.',
+      en: 'Garments made with selected technical materials and controlled processes to ensure resistance, durability, and performance.'
+    },
+    'index.risk.reliability': {
+      es: 'Vestuario diseñado para acompañar al trabajador en condiciones exigentes, brindando protección constante durante su jornada laboral.',
+      en: 'Workwear designed to support workers in demanding conditions, providing constant protection throughout the workday.'
+    },
+    'index.risk.innovation': {
+      es: 'Desarrollamos soluciones que integran seguridad, comodidad, ergonomía y funcionalidad, de acuerdo con las necesidades reales de cada operación.',
+      en: 'We develop solutions that integrate safety, comfort, ergonomics, and functionality according to the real needs of each operation.'
+    },
+    'index.banner2.emails': {
+      es: 'info@decimodotaciones.com o calidad@decimodotaciones.com.',
+      en: 'info@decimodotaciones.com or calidad@decimodotaciones.com.'
+    },
+    'contact.intro': {
+      es: 'En Ignisafe 10, una marca desarrollada por Décimo Dotaciones, acompañamos a empresas que requieren prendas técnicas confiables, seguras y fabricadas con altos estándares de calidad. Cuéntanos qué tipo de prenda o solución necesita tu operación. Nuestro equipo te orientará en la selección de vestuario ignífugo y de protección especializada, de acuerdo con el nivel de riesgo, el tipo de labor y las condiciones reales de trabajo.',
+      en: 'At Ignisafe 10, a brand developed by Décimo Dotaciones, we support companies that require reliable, safe technical garments manufactured under high quality standards. Tell us what type of garment or solution your operation needs. Our team will guide you in selecting flame-resistant and specialized protective workwear according to the risk level, type of work, and real working conditions.'
+    },
+    'search.placeholder': {
+      es: 'Escribe y presiona Enter',
+      en: 'Type words then press Enter'
+    }
+  };
+
   /* =========================================================
      ENGINE
   ========================================================= */
