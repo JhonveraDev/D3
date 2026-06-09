@@ -5174,7 +5174,7 @@ textarea.form-control {
   max-width: calc(100% - 36px);
   padding: 8px 12px;
   border-radius: 3px;
-  background-color: rgba(27, 26, 26, 0.86);
+  background-color: #ff7607;
   color: #ffffff;
   font-size: 13px;
   font-weight: 700;
