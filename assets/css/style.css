@@ -144,6 +144,14 @@ select {
   background-color: transparent;
 }
 
+.solo-primera-mayuscula {
+  text-transform: lowercase;
+}
+
+.solo-primera-mayuscula::first-letter {
+  text-transform: uppercase;
+}
+
 /*----------------------------
       Helper Classes
 ----------------------------*/
@@ -7731,9 +7739,7 @@ textarea.form-control {
   color: #ffffff;
 }
 
-.about-2 .about__img {
-
-}
+.about-2 .about__img {}
 
 .about-2 .about__img.animated-img {
   opacity: 1;
@@ -8135,10 +8141,12 @@ textarea.form-control {
     transform: scale(1);
     opacity: 0.7;
   }
+
   70% {
     transform: scale(1.5);
     opacity: 0;
   }
+
   100% {
     transform: scale(1.5);
     opacity: 0;
@@ -8150,10 +8158,12 @@ textarea.form-control {
     bottom: 20px;
     left: 20px;
   }
+
   .whatsapp-float__btn {
     width: 52px;
     height: 52px;
   }
+
   .whatsapp-float__btn i {
     font-size: 24px;
   }
@@ -8182,9 +8192,7 @@ textarea.form-control {
   margin-bottom: 16px;
 }
 
-.ca-heading--green {
-
-}
+.ca-heading--green {}
 
 .ca-divider {
   width: 52px;
@@ -8240,7 +8248,7 @@ textarea.form-control {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   z-index: 1;
 }
 
@@ -8305,8 +8313,15 @@ textarea.form-control {
 }
 
 @keyframes caModalIn {
-  from { opacity: 0; transform: scale(0.93) translateY(20px); }
-  to   { opacity: 1; transform: scale(1)    translateY(0);    }
+  from {
+    opacity: 0;
+    transform: scale(0.93) translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 .ca-modal__close {
@@ -8314,7 +8329,7 @@ textarea.form-control {
   top: 14px;
   right: 14px;
   z-index: 2;
-  background: rgba(255,255,255,0.92);
+  background: rgba(255, 255, 255, 0.92);
   border: none;
   border-radius: 50%;
   width: 38px;
@@ -8326,7 +8341,7 @@ textarea.form-control {
   align-items: center;
   justify-content: center;
   color: #333;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.22);
   transition: background 0.2s, transform 0.15s;
 }
 
