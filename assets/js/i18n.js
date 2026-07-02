@@ -647,8 +647,8 @@
       en: '⮞ Carrera 64 # 48-92, La Pradera neighborhood, Bogotá, Colombia'
     },
     'linea.contact.phone': {
-      es: '⮞ Teléfono: (601) 4432180',
-      en: '⮞ Phone: (601) 4432180'
+      es: '⮞ Teléfono: ( +57 ) 317 638 5224',
+      en: '⮞ Phone: ( +57 ) 317 638 5224'
     },
     'index.certs.title': {
       es: 'Certificaciones que respaldan nuestra calidad y protección',
